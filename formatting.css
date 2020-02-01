@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+a {
+    text-decoration: none;
+  }
+.content{
+    padding: 200px 0 100px 0;
+    color:white;
+    background-image:url(https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:cover;
+    text-align: center;
+    height: 500px;
+}
+.info h1 {
+    margin-top: 25px;
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: rgb(133, 35, 35);
+    text-align:center;
+}
+
+.info h2{
+    font-size: 25px;
+    color: rgb(3, 240, 82);
+}
+.info p{
+    font-size: 20px;
+    margin-bottom:3px;
+    color: rgba(27, 12, 235, 0.945);
+    text-align:center;
+    font-weight: normal;
+}
+.btn{
+    padding: 12px 24px;
+    color:white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius:4px;
+  }
+  .signup{
+    background-color:#239b76;
+  }
+  .facebook{
+    background-color:#3b5998;
+    margin-right:10px;
+  }
+  .btn-con{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-con p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .btn:hover{
+    opacity:1px;
+  }
+  .header1{
+      float: left;
+  }
+  .logo1{
+    width:110px;
+    margin-top:8px;
+  }
+
+  .logo2{
+    width:100px;
+  }
+  header {
+    height:65px;
+    width:100%;
+    background-color:rgba(219, 127, 21, 0.5);
+    position: fixed;
+    top:0;
+    z-index:10;
+  }
+  .header2 {
+    float:right;
+    transition: all 0.5s;
+  }
+  .header2:hover{
+    background-color:rgba(226, 134, 13, 0.8);
+  }
+  .header2 a{
+    line-height:56px;
+    padding-left:25px;
+    padding-right:25px;
+    color:white;
+    display:block;
+    margin-top: 8px;
+    
+  }
+  .material {
+      float: left;
+      width: 33%;
+
+  }
+  .materials-con{
+    height: 295px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align:center;
+  }
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .material-icon{
+    position:relative;
+  }
+  .material-icon p{
+    position:absolute;
+    top:82px;
+    width:100%;
+    color:white;
+  }
+  .txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:15px;
+    color:rgb(53, 3, 82);
+    
+  }
+  footer{
+    padding-top:40px;
+    text-align: left;
+  }
+  footer p{
+    color:#75f1be;
+    font-size:12px;
+    font-size: large;
+  }
+
+  .img1{
+    width:50px;
+    float: left;
+  }
+  .img2{
+    width:100px;
+    float: right;
+  }
+  .img3{
+    width:100px;
+    margin-top:8px;
+    float: right;
+
+  }
+  .contact-form{
+    margin-top: 20px;
+    height: fit-content;
+}
+  input,textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+  }
+  
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+    
+  }
+  
